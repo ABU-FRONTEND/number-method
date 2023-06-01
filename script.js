@@ -1,7 +1,7 @@
-// function abc(num) {
-//   return num <= 0 ? num * (-1) : num
-// }
-// console.log(abc(12));
+function abc(num) {
+  return num <= 0 ? num * (-1) : num
+}
+console.log(abc(12));
 
 
 
@@ -9,6 +9,8 @@
 //   return x ** y
 // }
 // console.log(pow(-8, (1/3)));
+
+
 
 
 
@@ -56,21 +58,21 @@
 
 
 
-function round(num){
-    let str = num.toString().split(".").slice(1,2)*1
-    let num1 = num.toString().split(".").slice(0,1)*1
-    // console.log( typeof num1)
-    if(str>=5 && num>0){
-      return num1+1
-    }
-    else if(str<5 && num>0){
-      return num1
-    }
-    else if(str>=5 && num<0){
-      return num1-1
-    }
-    else if(str<5 && num<0){
-      return num1
-    }
-  }
-  console.log(round(5.55))
+// function round(num){
+//     let str = num.toString().split(".").slice(1,2)*1
+//     let num1 = num.toString().split(".").slice(0,1)*1
+//     // console.log( typeof num1)
+//     if(str>=5 && num>0){
+//       return num1+1
+//     }
+//     else if(str<5 && num>0){
+//       return num1
+//     }
+//     else if(str>=5 && num<0){
+//       return num1-1
+//     }
+//     else if(str<5 && num<0){
+//       return num1
+//     }
+//   }
+//   console.log(round(5.55))
